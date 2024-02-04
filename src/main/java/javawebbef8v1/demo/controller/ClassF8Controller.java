@@ -13,4 +13,19 @@ public class ClassF8Controller {
         return "layoutF8/FormClassF8";
     }
 
+    @GetMapping("/index")
+    public String doGetIndexForm(){
+        return "formEntry/HelloScreen";
+    }
+
+    @GetMapping("/RoleEntry")
+    public String doGetRoleEntryForm(){
+        return "formEntry/RoleEntry";
+    }
+
+    @GetMapping("/UserEntry")
+    public String doGetUserEntryForm(){
+        return "formEntry/UserEntry";
+    }
+
 }
